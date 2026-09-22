@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments and secrets
+.venv/
+venv/
+env/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw, processed, and sample data
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Downloaded model files and checkpoints
+models/checkpoints/*
+!models/checkpoints/.gitkeep
+models/final/*
+!models/final/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.h5
+*.hdf5
+*.keras
+
+# Generated reports
+reports/figures/*
+!reports/figures/.gitkeep
+reports/metrics/*
+!reports/metrics/.gitkeep
+
+# Logs and temporary files
+*.log
+tmp/
+temp/
